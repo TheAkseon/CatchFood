@@ -1,0 +1,11 @@
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class Restart : MonoBehaviour
+{
+    public void RestartLevel()
+    {
+        SceneManager.LoadScene("Level1");
+        Time.timeScale = 1;
+    }
+}
